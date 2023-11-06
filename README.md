@@ -45,3 +45,10 @@ npm run dev
 - Look at the network panel to compare regular REST vs tRPC vs TS-REST
 - Start exploring the code from  
   apps/client/src/components/app/app.tsx
+
+## Thoughts
+
+- tRPC and TS-REST both add typesafety
+- TS-REST is probably my preferred choice at the moment
+  - Network calls are structured like regular rest calls so you could use Postman or curl like you normally would
+  - Documentation is not great though. I had to piece together code from their Github examples
